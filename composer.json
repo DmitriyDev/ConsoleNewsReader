@@ -1,0 +1,16 @@
+{
+    "require": {
+        "php": "8.3",
+        "guzzlehttp/guzzle": "^6.0",
+        "dg/rss-php": "^1.5",
+        "symfony/console": "^7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "\\App\\": "/src"
+        }
+    }
+}
